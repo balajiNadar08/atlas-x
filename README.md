@@ -37,14 +37,35 @@ These are typically large, generated, or not useful for size inspection.
 
 ---
 
+Here’s a cleaner, more professional version with clearer structure and a bit of guidance—no emoji clutter, just useful signal:
+
+````md
 ## Installation
 
-Install in your project folder using npm:
+Install **atlas-x** as a project dependency:
 
 ```bash
 npm install atlas-x
+````
 
-Usage:
+> This installs `atlas-x` locally so it can be used per project without polluting the global environment.
+
+## Usage
+
+Run `atlas-x` using `npx` from your project root:
 
 ```bash
 npx atlas-x .
+```
+OR
+```bash
+npx atlas-x [path]
+```
+
+This command analyzes the current directory and outputs the folder and file size breakdown.
+
+You can also pass flags to ignore specific folders:
+
+```bash
+npx atlas-x . --confidential
+```
