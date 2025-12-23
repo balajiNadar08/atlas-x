@@ -37,15 +37,13 @@ These are typically large, generated, or not useful for size inspection.
 
 ---
 
-````md
 ## Installation
 
-Install **atlas-x** as a project dependency:
+Install **atlas-x** in your project using npm:
 
 ```bash
 npm install atlas-x
-```
-````
+
 
 > This installs `atlas-x` locally so it can be used per project without polluting the global environment.
 
