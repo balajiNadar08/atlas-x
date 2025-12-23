@@ -37,8 +37,6 @@ These are typically large, generated, or not useful for size inspection.
 
 ---
 
-Here’s a cleaner, more professional version with clearer structure and a bit of guidance—no emoji clutter, just useful signal:
-
 ````md
 ## Installation
 
@@ -46,6 +44,7 @@ Install **atlas-x** as a project dependency:
 
 ```bash
 npm install atlas-x
+```
 ````
 
 > This installs `atlas-x` locally so it can be used per project without polluting the global environment.
