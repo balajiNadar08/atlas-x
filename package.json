@@ -1,6 +1,6 @@
 {
   "name": "atlas-x",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Visualize directory trees with recursive size information",
   "main": "dist/index.js",
   "bin": {
